@@ -1,8 +1,8 @@
 var expect = require('chai').expect
-var { describe, it } = require('mocha')
+//var { describe, it } = require('mocha')
 var deliverStormTroopersEscapeScene = require('./index')
 
-describe('StarWarsScene', function () {
+describe('deliverStormTroopersEscapeScene', function () {
   it('returns shots and lines for Luke, Leia, and Han\'s escape scene', function () {
     var rebels = [
       { name: 'Luke Skywalker', plotArmor: true },
